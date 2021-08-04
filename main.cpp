@@ -68,8 +68,7 @@ void solve()
         }
     }
 
-    cout << "\n";
-    cout << "\n";
+    cout << "\n\nSolution: \n";
     for (size_t x = 0; x < 9; x++)
     {
         for (size_t y = 0; y < 9; y++)
@@ -78,10 +77,13 @@ void solve()
         }
         cout << "\n";
     }
+
+    system("pause");
 }
 
 int main()
 {
+    cout << "Original: \n";
     for (size_t x = 0; x < 9; x++)
     {
         for (size_t y = 0; y < 9; y++)
@@ -92,6 +94,7 @@ int main()
     }
 
     solve();
+    cout << "No more solutions.";
 
     return 0;
 }
